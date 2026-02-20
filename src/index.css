@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Soft blush & rose palette */
+  --color-background: hsl(350 33% 99%);
+  --color-foreground: hsl(340 25% 18%);
+  --color-card: hsl(0 0% 100%);
+  --color-card-foreground: hsl(340 25% 18%);
+  --color-popover: hsl(0 0% 100%);
+  --color-popover-foreground: hsl(340 25% 18%);
+  --color-primary: hsl(346 64% 58%);
+  --color-primary-foreground: hsl(0 0% 100%);
+  --color-secondary: hsl(350 45% 94%);
+  --color-secondary-foreground: hsl(340 25% 25%);
+  --color-muted: hsl(350 30% 95%);
+  --color-muted-foreground: hsl(340 15% 45%);
+  --color-accent: hsl(350 55% 92%);
+  --color-accent-foreground: hsl(346 50% 35%);
+  --color-destructive: hsl(0 70% 55%);
+  --color-destructive-foreground: hsl(0 0% 100%);
+  --color-border: hsl(350 30% 90%);
+  --color-input: hsl(350 25% 92%);
+  --color-ring: hsl(346 64% 58%);
+  --radius-lg: 0.75rem;
+  --radius-md: calc(0.75rem - 2px);
+  --radius-sm: calc(0.75rem - 4px);
+}
